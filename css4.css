@@ -1,0 +1,87 @@
+/*.card{
+    width: 200px;
+    height:200px;
+    border:2px solid black;
+    display:inline-block;
+    margin:10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px green;
+    transition:1s;
+}
+.desc{
+    padding: 0 2px 0 2px;
+}
+.card:hover{
+    box-shadow: 4px 4px 20px green;
+}
+section{
+    margin-top: 100px;
+}
+*/
+div{
+    height: 100px;
+    width: 100px;
+    text-align: centre;
+    background-color:rgb(0,255,0);
+    border: 2px solid black ;
+    display:inline-block;
+    margin:20px;
+    /*transition: margin-top 1s ease-in-out 1s;
+    box-shadow: 2px 2px 10px green;*/
+}
+#static{
+    background-color: yellow;
+    position:static;
+    top:100px;
+    left:100px;
+}
+#relative{
+    background-color: aqua;
+    position:relative;
+    top:100px;
+    left:100px;
+}
+#absolute{
+    background-color: bisque;
+    position:absolute;
+    top:100px;
+    left:100px;
+}
+#fixed{
+    background-color: rgb(198, 116, 17);
+    position:fixed;
+    top:100px;
+    left:100px;
+}
+/*
+div:nth-of-type(2n){
+    background-color: pink;
+}
+div:nth-of-type(3n){
+    background-color: blue;
+}
+*/
+/*transform*/
+/*
+#one{
+    transform: rotate(-45deg);
+}
+#two{
+    transform:scale(0.5,2);
+}
+#three{
+    transform:translate(50%,50%);
+}
+#four{
+    transform:skew(30deg);
+}
+
+div:hover{
+    background-color: pink;
+    margin-top:400px;
+    
+}
+#opacity{
+    background-color: orange;
+    opacity: 0;
+}*/
